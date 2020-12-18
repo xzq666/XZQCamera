@@ -20,6 +20,11 @@
     if (@available(iOS 13.0, *)) {
         
     } else {
+        /**
+         AVAudioSession *session = [AVAudioSession sharedInstance];
+         [session setCategory:AVAudioSessionCategoryPlayAndRecord error:nil];
+         [session setActive:YES error:nil];
+         */
         self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
         self.window.rootViewController = [[ViewController alloc] init];
         [self.window makeKeyAndVisible];

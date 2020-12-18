@@ -13,6 +13,15 @@
 		F0549E69257612DC00244E99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0549E68257612DC00244E99 /* Assets.xcassets */; };
 		F0549E6C257612DC00244E99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0549E6A257612DC00244E99 /* LaunchScreen.storyboard */; };
 		F0549E6F257612DC00244E99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0549E6E257612DC00244E99 /* main.m */; };
+		F0549E7E257616E000244E99 /* XZQCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0549E7D257616E000244E99 /* XZQCameraView.m */; };
+		F0549E83257616F900244E99 /* XZQPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0549E82257616F900244E99 /* XZQPreviewView.m */; };
+		F0549E872576170B00244E99 /* XZQOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0549E862576170B00244E99 /* XZQOverlayView.m */; };
+		F0549E8D25761C5100244E99 /* XZQCameraControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F0549E8C25761C5100244E99 /* XZQCameraControl.m */; };
+		F078767825773C3E0077291D /* XZQCameraModeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F078767725773C3E0077291D /* XZQCameraModeView.m */; };
+		F078767C257764200077291D /* XZQCaptureButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F078767B257764200077291D /* XZQCaptureButton.m */; };
+		F0787681257784E50077291D /* UIView+XZQAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F0787680257784E50077291D /* UIView+XZQAdditions.m */; };
+		F078768625778F1D0077291D /* XZQFlashControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = F078768525778F1D0077291D /* XZQFlashControlView.m */; };
+		F078768D2577984A0077291D /* XZQStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = F078768C2577984A0077291D /* XZQStatusView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +36,24 @@
 		F0549E6B257612DC00244E99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0549E6D257612DC00244E99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0549E6E257612DC00244E99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0549E7C257616E000244E99 /* XZQCameraView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZQCameraView.h; sourceTree = "<group>"; };
+		F0549E7D257616E000244E99 /* XZQCameraView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZQCameraView.m; sourceTree = "<group>"; };
+		F0549E81257616F900244E99 /* XZQPreviewView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZQPreviewView.h; sourceTree = "<group>"; };
+		F0549E82257616F900244E99 /* XZQPreviewView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZQPreviewView.m; sourceTree = "<group>"; };
+		F0549E852576170B00244E99 /* XZQOverlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZQOverlayView.h; sourceTree = "<group>"; };
+		F0549E862576170B00244E99 /* XZQOverlayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZQOverlayView.m; sourceTree = "<group>"; };
+		F0549E8B25761C5100244E99 /* XZQCameraControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZQCameraControl.h; sourceTree = "<group>"; };
+		F0549E8C25761C5100244E99 /* XZQCameraControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZQCameraControl.m; sourceTree = "<group>"; };
+		F078767625773C3E0077291D /* XZQCameraModeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZQCameraModeView.h; sourceTree = "<group>"; };
+		F078767725773C3E0077291D /* XZQCameraModeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZQCameraModeView.m; sourceTree = "<group>"; };
+		F078767A257764200077291D /* XZQCaptureButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZQCaptureButton.h; sourceTree = "<group>"; };
+		F078767B257764200077291D /* XZQCaptureButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZQCaptureButton.m; sourceTree = "<group>"; };
+		F078767F257784E50077291D /* UIView+XZQAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+XZQAdditions.h"; sourceTree = "<group>"; };
+		F0787680257784E50077291D /* UIView+XZQAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+XZQAdditions.m"; sourceTree = "<group>"; };
+		F078768425778F1D0077291D /* XZQFlashControlView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZQFlashControlView.h; sourceTree = "<group>"; };
+		F078768525778F1D0077291D /* XZQFlashControlView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZQFlashControlView.m; sourceTree = "<group>"; };
+		F078768B2577984A0077291D /* XZQStatusView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZQStatusView.h; sourceTree = "<group>"; };
+		F078768C2577984A0077291D /* XZQStatusView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZQStatusView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +86,9 @@
 		F0549E5B257612DA00244E99 /* XZQCamera */ = {
 			isa = PBXGroup;
 			children = (
+				F078767E257784C90077291D /* Category */,
+				F0549E8A25761C1700244E99 /* Model */,
+				F0549E7B257616CB00244E99 /* View */,
 				F0549E5C257612DA00244E99 /* AppDelegate.h */,
 				F0549E5D257612DA00244E99 /* AppDelegate.m */,
 				F0549E5F257612DA00244E99 /* SceneDelegate.h */,
@@ -71,6 +101,45 @@
 				F0549E6E257612DC00244E99 /* main.m */,
 			);
 			path = XZQCamera;
+			sourceTree = "<group>";
+		};
+		F0549E7B257616CB00244E99 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F0549E7C257616E000244E99 /* XZQCameraView.h */,
+				F0549E7D257616E000244E99 /* XZQCameraView.m */,
+				F0549E81257616F900244E99 /* XZQPreviewView.h */,
+				F0549E82257616F900244E99 /* XZQPreviewView.m */,
+				F0549E852576170B00244E99 /* XZQOverlayView.h */,
+				F0549E862576170B00244E99 /* XZQOverlayView.m */,
+				F078767625773C3E0077291D /* XZQCameraModeView.h */,
+				F078767725773C3E0077291D /* XZQCameraModeView.m */,
+				F078767A257764200077291D /* XZQCaptureButton.h */,
+				F078767B257764200077291D /* XZQCaptureButton.m */,
+				F078768425778F1D0077291D /* XZQFlashControlView.h */,
+				F078768525778F1D0077291D /* XZQFlashControlView.m */,
+				F078768B2577984A0077291D /* XZQStatusView.h */,
+				F078768C2577984A0077291D /* XZQStatusView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F0549E8A25761C1700244E99 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F0549E8B25761C5100244E99 /* XZQCameraControl.h */,
+				F0549E8C25761C5100244E99 /* XZQCameraControl.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F078767E257784C90077291D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F078767F257784E50077291D /* UIView+XZQAdditions.h */,
+				F0787680257784E50077291D /* UIView+XZQAdditions.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +210,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F078767825773C3E0077291D /* XZQCameraModeView.m in Sources */,
+				F078768D2577984A0077291D /* XZQStatusView.m in Sources */,
+				F078768625778F1D0077291D /* XZQFlashControlView.m in Sources */,
 				F0549E64257612DA00244E99 /* ViewController.m in Sources */,
+				F078767C257764200077291D /* XZQCaptureButton.m in Sources */,
 				F0549E5E257612DA00244E99 /* AppDelegate.m in Sources */,
+				F0787681257784E50077291D /* UIView+XZQAdditions.m in Sources */,
+				F0549E8D25761C5100244E99 /* XZQCameraControl.m in Sources */,
 				F0549E6F257612DC00244E99 /* main.m in Sources */,
+				F0549E83257616F900244E99 /* XZQPreviewView.m in Sources */,
 				F0549E61257612DA00244E99 /* SceneDelegate.m in Sources */,
+				F0549E7E257616E000244E99 /* XZQCameraView.m in Sources */,
+				F0549E872576170B00244E99 /* XZQOverlayView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +361,7 @@
 				DEVELOPMENT_TEAM = QX8283AUA8;
 				INFOPLIST_FILE = "$(SRCROOT)/XZQCamera/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,6 +381,7 @@
 				DEVELOPMENT_TEAM = QX8283AUA8;
 				INFOPLIST_FILE = "$(SRCROOT)/XZQCamera/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
